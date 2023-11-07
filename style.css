@@ -2,7 +2,6 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
 }
 
 header, footer {
@@ -25,32 +24,32 @@ nav ul li {
     margin-right: 20px;
 }
 
-/* Флексбоксы ниже*/
+/* Флексбоксы */
 .flex-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .main-content {
-    width: 70%;
+    flex: 2;
     padding: 20px;
 }
 
 .sidebar {
-    width: 30%;
+    flex: 1;
     background-color: #f0f0f0;
     padding: 20px;
 }
 
 @media print {
+
     body {
         font-size: 14pt;
         background: none;
-        color: black;
+        color: black; 
     }
 
     a {
         display: none;
     }
+    
 }
