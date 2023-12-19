@@ -1,0 +1,11 @@
+@media print {
+    body {
+        font-size: 14pt;
+        background: none;
+        color: black;
+    }
+
+    a {
+        display: none;
+    }
+}
